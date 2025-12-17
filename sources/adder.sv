@@ -7,4 +7,11 @@ module simple_adder (
     output reg [7:0] sum
 );
     // TODO: Implement addition logic
+
+    always @(posedge clk) begin
+        // 8-bit synchronous adder, modulo 256
+       sum <= a + b;
+       
+    end
+
 endmodule
