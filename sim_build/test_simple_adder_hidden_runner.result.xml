@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1765936794" />
+    <testcase name="test_addition" classname="test_simple_adder_hidden" file="C:\D\verilog-coding-template - backup\simple_adder\tests\test_simple_adder_hidden.py" lineno="5" time="0.0011451244354248047" sim_time_ns="20.0" ratio_time="17465.350822402666" />
+  </testsuite>
+</testsuites>
